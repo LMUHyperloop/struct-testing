@@ -13,15 +13,15 @@ Data Outputs and Data Types required by SpaceX
 **/
 
 struct telemStruct {
-  unsigned char	team_id = 0;
-  unsigned char	status = 0;
+  unsigned char	team_id;
+  unsigned char	status;
 
-  signed long int acceleration = 0;
-  signed long int position = 0;
-  signed long int velocity = 0;
-  signed long int battery_voltage = 0;
-  signed long int battery_current = 0;
-  signed long int battery_temperature = 0;
+  signed long int acceleration;
+  signed long int position;
+  signed long int velocity;
+  signed long int battery_voltage;
+  signed long int battery_current;
+  signed long int battery_temperature;
 
-  unsigned long int stripe_count = 0;
+  unsigned long int stripe_count;
 };
